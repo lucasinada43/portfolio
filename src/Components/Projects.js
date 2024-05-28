@@ -8,16 +8,16 @@ export function Projects() {
         </h1>
         <div id='projects' className='projetos'>
             <div>
-                Pokedex
+                <a href='https://github.com/lucasinada43/pokedex-main'>Pokedex</a>
             </div>
             <div>
-                Filmes
+                <a href='https://github.com/lucasinada43/desafio2'>Filmes</a>
             </div>
             <div>
-                To do List
+                <a href='https://github.com/lucasinada43/desafio1'>To do List</a>
             </div>
             <div>
-                DtMoney
+                <a href='https://github.com/lucasinada43/dtmoney'>DtMoney</a>
             </div>
         
         </div>
