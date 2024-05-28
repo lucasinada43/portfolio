@@ -1,0 +1,48 @@
+main{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    padding: 10%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 70px;
+}
+.minha-foto {
+    width: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.minha-foto:hover {
+    width: 210px;
+    transition: 1s;
+}
+body{
+    background-color: #ecf0f1;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+
+}
+.icons-image {
+    cursor: pointer;
+}
+.icons-image:hover {
+    width: 35px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 50%;
+    transition: 1s;
+}
+@media screen and (max-width:1280px) {
+    main{
+        padding: none;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.projetos {
+    display: grid;    
+    margin: auto;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-between;
+    gap: 20px;
+    width: 500px;
+}
+.projetos div {
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px;
+    padding: 50px;
+    cursor: pointer;
+}
+.projetos div:hover{
+    background-color: rgb(90, 90, 90);
+    transition: 1s;
+}
+@media screen and (max-width:1200px) {
+    .projetos{
+        grid-template-columns: none;
+        justify-content: center;
+        width: 100%;
+    }
+}
